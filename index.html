@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Academy</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f8ff;
+      color: #172033;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0757c9;
+      color: white;
+      padding: 25px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+
+    nav {
+      margin-top: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 8px;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 70px 20px;
+      background: white;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      color: #0757c9;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 18px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      background: #0757c9;
+      color: white;
+      padding: 14px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #0757c9;
+    }
+
+    .formations {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      color: #0757c9;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #172033;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Digital Academy</h1>
+    <p>Apprenez. Progressez. Réussissez.</p>
+
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#formations">Formations</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero" id="accueil">
+    <h2>Bienvenue sur Digital Academy</h2>
+    <p>
+      Développez vos compétences numériques grâce à des formations
+      pratiques et accessibles.
+    </p>
+
+    <a href="#formations" class="button">Découvrir les formations</a>
+  </div>
+
+  <section id="formations">
+    <h2>Nos formations</h2>
+
+    <div class="formations">
+
+      <div class="card">
+        <h3>Microsoft Word</h3>
+        <p>Apprenez à créer et mettre en forme des documents professionnels.</p>
+      </div>
+
+      <div class="card">
+        <h3>Microsoft Excel</h3>
+        <p>Maîtrisez les tableaux, calculs, formules et outils essentiels.</p>
+      </div>
+
+      <div class="card">
+        <h3>PowerPoint</h3>
+        <p>Créez des présentations modernes et professionnelles.</p>
+      </div>
+
+      <div class="card">
+        <h3>Gmail & Google</h3>
+        <p>Apprenez à utiliser efficacement Gmail et les principaux outils Google.</p>
+      </div>
+
+      <div class="card">
+        <h3>Création de CV</h3>
+        <p>Apprenez à réaliser un CV clair et professionnel.</p>
+      </div>
+
+      <div class="card">
+        <h3>Création vidéo</h3>
+        <p>Découvrez les bases de la création et du montage vidéo.</p>
+      </div>
+
+      <div class="card">
+        <h3>Intelligence artificielle</h3>
+        <p>Découvrez comment utiliser les outils d'IA pour vos projets.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="apropos">
+    <h2>À propos de Digital Academy</h2>
+
+    <p style="text-align:center;">
+      Digital Academy accompagne les apprenants dans l'acquisition
+      de compétences numériques concrètes et utiles pour leurs études,
+      leur activité professionnelle et leurs projets.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+
+    <p style="text-align:center;">
+      Vous souhaitez en savoir plus sur nos formations ?
+      Contactez-nous pour obtenir plus d'informations.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Digital Academy — Tous droits réservés.</p>
+  </footer>
+
+</body>
+  </html>
